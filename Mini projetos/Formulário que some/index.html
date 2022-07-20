@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário que some</title>
+  </head>
+
+  <body>
+    <h1>Formulário de Login</h1>
+
+    <!-- O onsubmit="bemVindo()" serve para quando o usuário enviar as informações(no caso clicar no button) ele vai executar a função dentro do onsubmit. -->
+    
+    <form id="formulario" onsubmit="bemVindo(); return false">
+      <input type="text" id="usuario" placeholder="Usuário" required>
+      <input type="password" id="senha" placeholder="Senha" required>
+
+      <button type="submit">Entrar</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

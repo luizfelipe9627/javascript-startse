@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar a cor de fundo</title>
+  </head>
+
+  <body>
+    <h2>Escolha uma cor de fundo:</h2>
+
+    <!-- O onchange="trocarFundo()" serve para quando algo for trocado, no caso as opções ele vai executar a função criada. -->
+ 
+    <select id="coresFundo" onchange="trocarFundo()">
+      <option value="white">Branco</option>
+      <option value="red">Vermelho</option>
+      <option value="green">Verde</option>
+      <option value="blue">Azul</option>
+      <option value="yellow">Amarelo</option>
+      <option value="purple">Roxo</option>
+      <option value="orange">Laranja</option>
+      <option value="pink">Rosa</option>
+      <option value="Turquoise">Turquesa</option>
+      <option value="violet">Violeta</option>
+    </select>
+
+    <!-- O onclick="print()"" serve para quando o usuário clicar no botão, imprimir a página atual." -->
+
+    <button onclick="print()">Imprimir</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
