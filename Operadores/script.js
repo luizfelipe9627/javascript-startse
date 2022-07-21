@@ -190,3 +190,5 @@ console.log('=-=-=-=-=-OPERADOR DE DECREMENTO-=-=-=-=-=');
 let dec = 10;
 let decRes = --dec; // Mesma coisa que decRes = dec - 1;
 console.log(`Subtraindo apenas um número terá como resultado:`, decRes);
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
