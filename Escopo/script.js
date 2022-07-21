@@ -10,6 +10,10 @@ console.log(`Eu sou uma variável global chamada X:`, x);
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 function soma(a, b) {
   // É visível pois está definida no escopo do arquivo.
   console.log(`Eu faço parte de uma variável global, e estou dentro de um escopo de função:`, x);
@@ -26,6 +30,10 @@ function soma(a, b) {
 // console.log(z);
 // console.log(a, b);
 console.log(`Eu estou recebendo os parâmetros de uma função chamada Soma e atribuindo argumentos nela:`, soma(4, 23))
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
@@ -46,6 +54,10 @@ console.log(`Eu estou recebendo os parâmetros de uma função chamada CalculaVe
 // Como podemos ver podemos usar a mesma const fora do escopo da função, pois dentro do escopo ela não é visível, agora ela é visível pois foi definida fora da função.
 const resultado = 0;
 console.log(`Eu sou uma const global chamada Resultado:`, resultado);
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 

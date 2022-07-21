@@ -15,6 +15,10 @@ console.log(nome);
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 // Podemos concatenar dois tipos de dados.
 let infosPessoa = nome + ', ' + idade + ' anos';
 console.log(infosPessoa);
@@ -22,6 +26,10 @@ console.log(infosPessoa);
 // Ou de um jeito mais simples e limpo usamos crase.
 infosPessoa = `Meu nome é ${nome} e eu tenho ${idade} anos.`;
 console.log(infosPessoa);
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
@@ -33,6 +41,10 @@ console.log(`Eu vou transformar tudo em letra maiúscula:`, nome.toUpperCase());
 
 // O método toLowerCase() é usado para converter todo os caracteres para letras minusculas.
 console.log(`Eu vou transformar tudo em letra minuscula:`, nome.toLowerCase());
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
@@ -50,12 +62,20 @@ console.log(`Extraindo a posição 12 em diante eu obtive a palavra:`, estado);
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 let x = '3.5';
 let y = '4.2';
 let resultado = x + y;
 
 // Podemos ver que mesmo sendo números eles estão entre aspas então viram string.
 console.log(`Eu sou do tipo:`, typeof resultado);
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
@@ -68,6 +88,10 @@ console.log('Eu estou contando quantas letras/caracteres tem depois do ":" :', i
 // Já que o indice está armazendo o total de caractere até o caractere ":", adicionando uma substring selecionando o indice e pulando mais 2 de espaço extraímos a cor.
 const cor = frase.substring('Eu estou selecionando a variável frase e pulando dois números armazenado no indice:', indice+2)
 console.log(cor);
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 

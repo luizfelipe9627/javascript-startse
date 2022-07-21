@@ -18,6 +18,10 @@ exibirMensagem('Luiz Felipe', 'Silva');
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 // Função declarada.
 function mediaAritmetica(a, b) {
   // Por padrão tudo aplicado dentro de uma função fica preso dentro do escopo, não pode ser usado fora.

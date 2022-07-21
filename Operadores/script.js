@@ -44,6 +44,10 @@ let exp1 = 10, exp2 = 2;
 let expRes1 = exp1 ** exp2;
 console.log(`${exp1} exponenciado por ${exp2} é igual a:`, expRes1);
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 /*
   Os operadores de atribuição retornam o valor do objeto especificado pelo operando esquerdo após a atribuição.
 
@@ -89,6 +93,8 @@ console.log('15 divido por 2 tem o resto é igual a:', mod3);
 let exp3 = 15, exp4 = 2;
 exp3 **= exp4; // Mesma coisa que exp3 = exp3 ** exp4.
 console.log('15 exponenciado por 2 é igual a:', exp3);
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-OPERADORES RELACIONAIS-=-=-=-=-=');
 
@@ -145,6 +151,8 @@ let diferenteComTipo1 = '12', diferenteComTipo2 = '12';
 let diferenteComTipo = diferenteComTipo1 !== diferenteComTipo2;
 console.log(`O ${diferenteComTipo1} é number e o ${diferenteComTipo2} também, então o resultado é:`, diferenteComTipo)
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
 console.log('=-=-=-=-=-OPERADORES LÓGICOS-=-=-=-=-=');
 
 /*
@@ -170,6 +178,8 @@ console.log(`${e1} é menor que ${e2}? Não. E ${e3} é maior que ${e2}? Sim. As
 let ou1 = 2, ou2 = 4, ou3 = 6;
 let ouRes = (ou3 < ou1) || (ou2 > ou1);
 console.log(`${ou3} é menor que ${ou1}? Não. OU ${ou2} é maior que ${ou1}? Sim. Uma das condições foi satisfeita, então o resultado é:`, ouRes);
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-OPERADOR DE INCREMENTO-=-=-=-=-=');
 

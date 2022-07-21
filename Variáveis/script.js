@@ -20,6 +20,10 @@ console.log(num);
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 // Foi definido um nome na variável primeiroNome.
 var primeiroNome = 'Gabriel';
 
@@ -27,7 +31,11 @@ var primeiroNome = 'Gabriel';
 var primeiroNome = 'Maria' 
 
 // Mostrando o nome no console.
-console.log(primeiroNome); 
+console.log(primeiroNome);
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
@@ -43,6 +51,10 @@ let soma = a + b;
 
 // Irá mostrar o resultado da soma no console.
 console.log(soma);
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
+// console.clear() // Usado para limpar o console e facilitar a leitura.
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 

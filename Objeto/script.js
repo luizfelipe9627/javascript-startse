@@ -26,6 +26,10 @@ console.log(livro);
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
+// console.clear() // Usado para limpar o console e facilitar a leitura.
+
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 const pessoa = {
   primeiroNome: 'Gabriel',
   ultimoNome: 'Lima',
