@@ -1,10 +1,10 @@
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 /* 
   Variáveis de var podem ser atualizadas e declaradas novamente dentro de seu escopo.
   As variáveis de let podem ser atualizadas, mas não podem ser declaradas novamente.
   As variáveis de const não podem ser atualizadas nem declaradas novamente.
 */
-
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 // Foi criado uma variável chamada num.
 let num;

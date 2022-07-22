@@ -1,10 +1,10 @@
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 /*
   Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor. 
   Um valor de propriedade pode ser uma função, que é então considerada um método do objeto.
   Todo o objeto é caracterizado pelo simbolo: "{}.
 */
-
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 // Foi criado um objeto chamada livro, definida com dois dados diferentes.
 const livro = {

@@ -1,8 +1,8 @@
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 /* 
   A variável global por ser colocada no próprio escopo do arquivo é visível e usadas por todos, até mesmo dentro de funções.
 */
-
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 // Variável global
 let x = 10; 

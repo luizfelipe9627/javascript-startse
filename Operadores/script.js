@@ -1,3 +1,5 @@
+console.log('=-=-=-=-=-OPERADORES ARITMÉTICOS-=-=-=-=-=');
+
 /*
  Os operadores aritméticos executam operações matemáticas, como adição e subtração com operandos.
 
@@ -8,8 +10,6 @@
   Módulo - resto da divisão: (%)
   Exponenciação- elevado ao quadrado: (**)
 */
-
-console.log('=-=-=-=-=-OPERADORES ARITMÉTICOS-=-=-=-=-=');
 
 // Exemplo com adição.
 let som1 = 11, som2 = 2;
@@ -46,8 +46,7 @@ console.log(`${exp1} exponenciado por ${exp2} é igual a:`, expRes1);
 
 // console.clear() // Usado para limpar o console e facilitar a leitura.
 
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
-
+console.log('=-=-=-=-=-OPERADORES DE ATRIBUIÇÃO-=-=-=-=-=');
 /*
   Os operadores de atribuição retornam o valor do objeto especificado pelo operando esquerdo após a atribuição.
 

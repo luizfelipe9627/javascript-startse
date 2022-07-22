@@ -1,6 +1,9 @@
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 /*
   Um Array no JavaScript é um objeto com um construtor único, com uma sintaxe literal e com um conjunto adicional de propriedades e de métodos herdados de um protótipo de Array. 
   Arrays em JavaScript são usados para armazenar vários valores em uma única variável.
+  As Arrays são identificadas pelo "[]".
 */
 
 // Um array vazio que poderá ser preenchido durante a inicialização.
@@ -18,8 +21,6 @@ produtos[1] = 'Casaco';
 
 // Também podemos trabalhar com outros tipos de valores.
 produtos[2] = 50;
-
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 // Como podemos ver no console, o primeiro item começa sempre do índice 0 e em diante.
 console.log(`Sou uma Array:` ,produtos);

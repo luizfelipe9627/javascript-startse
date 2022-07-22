@@ -1,10 +1,10 @@
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 /*
   Funções são blocos de construção fundamentais em JavaScript. 
   Uma função é um procedimento de JavaScript - um conjunto de instruções que executa uma tarefa ou calcula um valor. 
   Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
 */
-
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 // Dentro da função foi definido dois parâmetros. Um responsável por puxar o primeiro nome e outro puxar o segundo o ultimo nome.
 // Função declarada.

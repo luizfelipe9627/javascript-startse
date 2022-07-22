@@ -1,9 +1,9 @@
+console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
+
 /*
   Por definição, strings são sequências de caracteres alfanuméricos (letras, números e/ou símbolos) amplamente usadas em programação. 
   Em Javascript, uma string sempre estará entre aspas composta("") ou simples('') o resultado irá dar o mesmo.
 */
-
-console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 // É uma string pois esta entre aspas.
 let nome = 'Giovanni';
