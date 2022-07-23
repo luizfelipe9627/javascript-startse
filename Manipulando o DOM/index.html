@@ -5,13 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manipulando o DOM</title>
+
+    <style>
+      body {
+      background-color: rgb(7, 7, 71);
+      color: rgb(239, 227, 227);
+      font: 12pt Tahoma;
+    }
+
+    ul.novoPonteiro {
+      cursor: pointer;
+      color: #AEB;
+    }
+    </style>
   </head>
   
   <body>
-    <h1>Aprendendo sobre JavaScript</h1>
-    <h2>Um elemento para o JavaScript modificar</h2>
+    <h1>Aprendendo sobe Javascript</h1>
+    <h2>Document Object Model (DOM)</h2>
+    <h3>Modelo de Documento por Objetos</h3>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt saepe et harum repellendus ad ullam tenetur non expedita accusamus vel!</p>
+    <p>Define:</p>
+
+    <ul id="lista">
+      <li>Os <b>elementos</b> HTML como <b>objetos;</b></li><p></p>
+      <li>As <b>propriedades</b> dos elementos HTML;</li><p></p>
+      <li>Os <b>métodos</b> para acessar os elementos HTML;</li><p></p>
+      <li>Os <b>eventos</b> dos elementos HTML.</li><p></p>
+
+      <button>Limpar</button>
+    </ul>
 
     <script src="./script.js"></script>
   </body>
