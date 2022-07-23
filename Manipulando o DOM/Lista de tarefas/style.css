@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(2, 2, 32);
+  color: #FFF;
+  font: 24px Tahoma;
+  user-select: none;
+}
+
+input, button {
+  outline: none;
+}
+
+button.remover {
+  position: absolute;
+  left: 199px;
+}
+
+ul {
+  padding: 0 0 0 25px;
+}
+
+ul li.naoRealizada {
+  list-style-type: '☐';
+  cursor: pointer;
+  text-indent: 10px;
+}
+
+ul li.realizada {
+  list-style: '☑';
+  cursor: pointer;
+  text-indent: 10px;
+  text-decoration: line-through;
+  color: #808080;
+}

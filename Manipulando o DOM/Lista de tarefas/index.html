@@ -4,36 +4,29 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Lista de tarefas</title>
-
-    <style>
-      body {
-        background-color: rgb(2, 2, 32);
-        color: #FFF;
-        font: 24px Tahoma;
-      }
-
-      input, button {
-        outline: none;
-      }
-
-      button.remover {
-        position: absolute;
-        left: 200px;
-      }
-    </style>
   </head>
   
   <body>
-    <h2>Lista de Tarefas</h2>
+    <div class="container">
+      <h2>Lista de Tarefas</h2>
 
-    <div>
-      <input type="text" id="caixaDeTexto" placeholder="Tarefa" required>
-      <button id="botaoAdicionar">✚</button>
+      <form action="#">
+        <input type="text" id="caixaDeTexto" placeholder="Tarefa" autofocus>
+        <button id="botaoAdicionar">✚</button>
+      </form>
+
+      <ul id="listaTarefas"></ul>
+
+      <select id="listaSuspensa" hidden>
+        <option>--Selecione uma opção--</option>
+        <option>Marcar todas as tarefas</option>
+        <option>Desmarcar todas as tarefas</option>
+        <option>Limpar a lista de tarefas</option>
+      </select>
     </div>
-
-    <ul id="listaTarefas"></ul>
-
+    
     <script src="./script.js"></script>
   </body>
 </html>
