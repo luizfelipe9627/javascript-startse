@@ -133,4 +133,28 @@ function exibeOcultaListaSuspensa() {
   }
 }
 
+// Em vez de usarmos o parâmetro de Click usamos o parâmetro Change que é para quando houver uma mudança no elemento.
+listaSuspensa.addEventListener('change', function() {
+  // Se alguma opção da lista for mudada/selecionada para a opção 1 ou 2 vai executar o bloco de comandos.
+  if(listaSuspensa.selectedIndex === 1 || listaSuspensa.selectedIndex === 2) {
+    // Está armazenando a lista de tarefas que o usuário digitou, no caso o SPAN com o ID tarefa.
+    let vetorTarefas = listaTarefas.querySelectorAll('#tarefa');
+
+    // Irá pegar cada elemento tarefa e em seguida executar uma ação.
+    for(tarefa of vetorTarefas) {
+      // Cria um evento como se fosse de click, mesmo sem ninguém ter clicado, então irá marcar e desmarcar todas ao selecionar a opção do select.
+      tarefa.dispatchEvent(new Event('click'));
+    }
+  } else if(listaSuspensa.selectedIndex === 3) {
+    // Está armazenando os botões de remover, no caso o "X".
+    let vetorBotoes = listaTarefas.querySelectorAll('.remover');
+
+    // Irá pegar cada elemento botao de vetorBotoes e em seguida executar uma ação.
+    for(botao of vetorBotoes) {
+      // Cria um evento como se fosse de click, mesmo sem ninguém ter clicado, então vai remover tudo ao selecionar a opção do select 3.
+      botao.dispatchEvent(new Event('click'));
+    }
+  }
+});
+
 

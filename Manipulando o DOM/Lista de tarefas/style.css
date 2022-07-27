@@ -1,25 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
+  padding: 0;
+  margin: 0;
   background-color: rgb(2, 2, 32);
   color: #FFF;
   font: 24px Tahoma;
   user-select: none;
+  display: flex;
+  height: 100vh;
 }
 
-input, button {
+h2 {
+  margin-top: 0;
+}
+
+input {
+  border: 1px solid #FFF;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: transparent;
+  outline: none;
+  height: 22px;
+  width: 25vw;
+}
+
+button, select {
+  border: 1px solid #FFF;
+  border-radius: 2px;
+  height: 22px;
+  background-color: transparent;
   outline: none;
 }
 
+
 button.remover {
-  position: absolute;
-  left: 199px;
+ margin-left: 15px;
+}
+
+input::placeholder {
+  color: #000;
 }
 
 ul {
-  padding: 0 0 0 25px;
+  padding: 0;
 }
 
 ul li.naoRealizada {
   list-style-type: '☐';
+  margin-left: 20px;
   cursor: pointer;
   text-indent: 10px;
 }
@@ -28,6 +60,30 @@ ul li.realizada {
   list-style: '☑';
   cursor: pointer;
   text-indent: 10px;
+  margin-left: 20px;
   text-decoration: line-through;
   color: #808080;
+}
+
+.container {
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .container {
+    width: 90vw;
+  }
+
+  input {
+    width: 70vw;
+  }
 }
