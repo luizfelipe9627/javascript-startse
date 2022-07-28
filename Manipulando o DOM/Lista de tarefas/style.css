@@ -21,7 +21,7 @@ h2 {
 input {
   border: 1px solid #FFF;
   padding: 10px;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: transparent;
   outline: none;
   height: 22px;
@@ -36,9 +36,14 @@ button, select {
   outline: none;
 }
 
-
 button.remover {
  margin-left: 15px;
+}
+
+button:hover, select:hover {
+  background-color: #FFF;
+  transition: 1s all ease;
+  font-weight: bold;
 }
 
 input::placeholder {
@@ -78,12 +83,27 @@ ul li.realizada {
   align-items: center;
 }
 
+.error {
+  background-color: #b92b27;
+  color: #FFF;
+  padding: 5px;
+  display: flex;
+  font-size: 14px;
+  width: 25vw;
+  height: 23px;
+  border-radius: 5px;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
   .container {
     width: 90vw;
   }
 
   input {
+    width: 70vw;
+  }
+
+  .error {
     width: 70vw;
   }
 }

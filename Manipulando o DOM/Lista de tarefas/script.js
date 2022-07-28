@@ -12,24 +12,35 @@ let botaoAdicionar = document.querySelector('#botaoAdicionar');
 // Está pegando o elemento SELECT..
 let listaSuspensa = document.querySelector('#listaSuspensa');
 
-// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//
+let inputValidacao = document.querySelector('#inputValidacao');
+
+//  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 // O addEventListener serve para adicionar um manipulador de evento a algo, geralmente trabalha com dois parâmetros, qual tipo de evento vai ser e a função que vai ser executada.
 // Nesse caso iremos usar um evento de clique, ao clicar acontece algo.
 // A função nesse caso esta sendo criada e já vai ser chamada no escopo.
 botaoAdicionar.addEventListener('click', function() {
-
   // Está falando que se o valor do caixaTexto for igual a nada escrito ele vai executar uma ação.
-  if(caixaTexto.value == '') {
-    // Irá exibir um alerta de janela caso não digite nada no caixaTexto.
-    alert('O campo de texto não pode ficar em branco.');
+  if(caixaTexto.value === '') {
+    // Está adicionando texto na DIV de aviso.
+    inputValidacao.textContent = 'O bloco de texto não pode ficar em vazio.';
+
+    // Está puxando do CSS a Class chamada erro e colocando na DIV de aviso.
+    inputValidacao.classList = 'error';
 
     // Em seguida irá focar o input do caixaTexto.
-    caixaTexto.focus()
+    caixaTexto.focus();
+
+    // A div vai ficar exposta por 3 segundos, e depois seus valores vão ser zerados, assim fazendo ela sumir.
+    setTimeout( function() {
+      inputValidacao.textContent = '';
+      inputValidacao.classList = '';
+    }, 3000);
 
     // Está encerrando a continuação de execução desse bloco de comandos.
     return;
-  } 
+  }
 
   // Está armazenando no textoDaTarefa o valor(o que foi digitado) do caixaTexto.
   let textoDaTarefa = caixaTexto.value;
