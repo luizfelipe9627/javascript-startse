@@ -11,7 +11,7 @@ let lista = document.querySelector('ul');
 // Está mostrando no console os filhos do UL.
 console.log('Estou exibindo todos os filhos de UL', lista);
 
-/*
+
   // Uma variável que é responsável por criar um novo elemento.
   let elementoLi = document.createElement('li');
 
@@ -24,7 +24,7 @@ console.log('Estou exibindo todos os filhos de UL', lista);
 
   // Irá apresentar no console as LI com a adicionada.
   console.log('Estou exibindo uma nova LI:', lista);
-*/
+
 
 // Usado para remover todos os itens de lista.
 // lista.remove();
@@ -35,10 +35,12 @@ let filhosDaLista = lista.querySelectorAll('li');
 
 // O For está percorrendo todo o vetor do filhosDaLista.
 // O primeiro parâmetro filho é um nome atribuído, que pode ser mudado no for mesmo.
+/*
 for(filho of filhosDaLista) {
   // O filho está pegando um item por vez do filhosLista depois mandado para o removeChild.
-  // lista.removeChild(filho);
+  lista.removeChild(filho);
 }
+*/
 
 // O className serve para adicionar uma classe a algum elemento.
 // Nesse caso estamos adicionando no UL.

@@ -1,7 +1,8 @@
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 
 /* 
-  A variável global por ser colocada no próprio escopo do arquivo é visível e usadas por todos, até mesmo dentro de funções.
+  O escopo global por ser colocada no próprio escopo do arquivo é visível e usadas por todos, até mesmo dentro de funções.
+  Agora o escopo local que é colocada dentro de uma função so pode ser usada dentro do seu próprio escopo.
 */
 
 // Variável global

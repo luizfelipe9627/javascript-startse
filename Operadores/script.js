@@ -65,12 +65,12 @@ console.log(msg2);
 
 // Exemplo de soma.
 let som3 = 15, som4 = 2;
-som3 += som4 // Mesma coisa que som3 = som3 + som4;
+som3 += som4; // Mesma coisa que som3 = som3 + som4;
 console.log('15 mais 2 é igual a:', som3);
 
 // Exemplo de subtração.
 let sub3 = 15, sub4 = 2;
-sub3 -= sub4; // Mesma coisa que sub3 = som3 - sub4;
+sub3 -= sub4; // Mesma coisa que sub3 = sub3 - sub4;
 console.log('15 menos 2 é igual a:', sub3);
 
 // Exemplo de multiplicação.
@@ -167,10 +167,10 @@ let negacao = true;
 let invNegacao = !negacao;
 console.log('A negação inverte o valor, então o resultado é:', invNegacao);
 
-//Exemplo do E.
+// Exemplo do E.
 let e1 = 2, e2 = 4, e3 = 6;
 let eRes = (e1 < e2) && (e3 > e2); 
-console.log(`${e1} é menor que ${e2}? Não. E ${e3} é maior que ${e2}? Sim. As duas condições foram satisfeitas, então o resultado é:`, eRes);
+console.log(`${e1} é menor que ${e2}? Não. E ${e3} é maior que ${e2}? Sim. Apenas uma das duas condições foram satisfeitas, então o resultado é:`, eRes);
 
 // Exemplo do OU.
 

@@ -3,7 +3,7 @@ console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 /*
   Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor. 
   Um valor de propriedade pode ser uma função, que é então considerada um método do objeto.
-  Todo o objeto é caracterizado pelo simbolo: "{}.
+  Todo o objeto é caracterizado pelo simbolo: "{}".
 */
 
 // Foi criado um objeto chamada livro, definida com dois dados diferentes.
@@ -52,12 +52,11 @@ const pessoa = {
 pessoa.celular = 11952353749;
 
 // Criado uma função global usando um objeto.
-pessoa.enderecoCompleto = function() {
+pessoa.enderecoCompleto = () => {
   return `Rua: ${pessoa.endereco.rua} ${pessoa.endereco.n} - ${pessoa.endereco.bairro}`;
-}
+};
 
 // Uma função declarada trabalhando com objeto.
-// O parâmetro P vai armazenar os dados das funções.
 function exibeDadosPessoa(p) {
   alert(`\n
     Nome: ${p.nomeCompleto()}\n

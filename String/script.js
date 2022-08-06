@@ -51,7 +51,7 @@ console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 let localizacao = 'São Paulo - SP';
 
 // O substring é usado para selecionar um ponto da string até outro ponto, assim selecionando apenas o desejado.
-// let estado = localizacao.substring(12);
+console.log('A posição 12 em diante da string é:', localizacao.substring(12));
 
 // Ou poderia ter feito da seguinte maneira.
 // Basicamente está selecionando a variável localização e falando para começar duas posições anteriores do final, no caso a palavra SP.
@@ -83,7 +83,7 @@ const frase = 'Minha cor favorita é: Azul';
 
 // O indexOf serve para contar quantas letras tem até o caractere definido nele.
 const indice = frase.indexOf(':');
-console.log('Eu estou contando quantas letras/caracteres tem depois do ":" :', indice);
+console.log('Eu estou contando quantas letras/caracteres tem até o ":" :', indice);
 
 // Já que o indice está armazendo o total de caractere até o caractere ":", adicionando uma substring selecionando o indice e pulando mais 2 de espaço extraímos a cor.
 const cor = frase.substring('Eu estou selecionando a variável frase e pulando dois números armazenado no indice:', indice+2)

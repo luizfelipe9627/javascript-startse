@@ -31,6 +31,6 @@ function mediaAritmetica(a, b) {
 
 // Uma variável que recebe a invocação da função com os parâmetros A e B e em seguida define os argumentos.
 let resultado = mediaAritmetica(10, 5);
-console.log(resultado);
+console.log('O resultado foi:', resultado);
 
 console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');

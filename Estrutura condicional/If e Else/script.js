@@ -8,7 +8,7 @@ console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
 let nota1 = 8, nota2 = 5;
 
 // Função media declarada, tendo dois parâmetros, N1 e N2 que vai ser definida pelo media do resultado.
-// Em seguida irá retornar a soma dos dois parâmetros e depois dividir por 2.
+// Em seguida 
 function media(n1, n2) {
   return (n1 + n2) / 2;
 }

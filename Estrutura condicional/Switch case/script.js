@@ -5,7 +5,7 @@ console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=');
   Normalmente é utilizado, quando se deseja analisar diversos valores diferentes para a mesma variável.
 */
 
-// O valor atribuído na variável correio vai ser influenciado na opção do Switch case.
+// O valor atribuído na variável tempoEntrega vai ser influenciado na opção do Switch case.
 let tempoEntrega = 2;
 
 // Basicamente o Switch case é uma estrutura de opção, dentro do seu parâmetro coloca a variável que vai receber o valor da opção.
