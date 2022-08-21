@@ -25,5 +25,5 @@ class Financiamento {
 // Caso não coloque nenhum parâmetro no NEW ele vai criar o objeto Financiamento mas vai resultar UNDEFINED nos atributos.
 let valores = new Financiamento(10000, 10);
 
-// Irá mostrar no console os novos atributos dos objetos.
+// Irá apresentar no console os valores definidos no atributo da CLASS Financiamento.
 console.log(valores)
