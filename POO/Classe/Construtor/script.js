@@ -32,6 +32,6 @@ class Produto {
 // Mas mesmo assim ele executa o construtor.
 let prod = new Produto();
 
-// Irá apresentar no console o o objeto dentro do CONSTRUCTOR.
+// Irá apresentar no console os valores definidos no atributo da CLASS Produto.
 console.log(prod);
 
