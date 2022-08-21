@@ -12,7 +12,7 @@ class Filme {
   }
 }
 
-// Foi criado uma variável chamada meuFilme que está definindo um novo valor de atributo parâmetros da CLASS Filme.
+// Foi criado uma variável chamada meuFilme que está recebendo um novo valor de atributo de parâmetros da CLASS Filme.
 let meuFilme = new Filme('Aprendendo JavaScript', 2022);
 
 // Irá apresentar no console os objetos da CLASS filme.
