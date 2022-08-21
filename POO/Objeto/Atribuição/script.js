@@ -1,49 +1,39 @@
 // Ao utilizar o USE STRICT não é possível criar elementos sem usar uma variável. Foi definido um modo estrito global.
 'use strict';
 
-// Foi declarado uma CLASS chamada Produto.
-class Produto {
-  // Foi criado uma lista dos atributos que vão ser usados dentro do parâmetro do construtor.
-  // Não se cria variáveis quando se trabalha com CLASS ou com atributos.
-  codigo;
-  titulo;
-  // O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
-  constructor(codigo, titulo) {
-    // O THIS está sendo usado para diferenciar um atributo de um parâmetro. E assim declarando o atributo da CLASS. O que vem depois do THIS é um atributo.
-    this.codigo = codigo;
-    this.titulo = titulo;
-  }
-}
-
-// Foi criado uma variável chamada P1 que está recebendo um novo valor de atributo de parâmetros da CLASS Produto.
-let p1 = new Produto(321, 'Cadeira')
-
 // Foi declarado uma CLASS chamada Disciplina.
 class Disciplina {
   // Foi criado uma lista dos atributos que vão ser usados dentro do parâmetro do construtor.
   // Não se cria variáveis quando se trabalha com CLASS ou com atributos.
   codigo;
   nome;
+  nota;
   // O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
-  constructor(codigo, nome) {
+  constructor(codigo, nome, nota) {
     // O THIS está sendo usado para diferenciar um atributo de um parâmetro. E assim declarando o atributo da CLASS. O que vem depois do THIS é um atributo.
     this.codigo = codigo;
     this.nome = nome;
+    this.nota = nota;
   }
 }
 
 // Foi criado uma variável chamada D1 que está recebendo um novo valor de atributo de parâmetros  da CLASS Disciplina.
-let d1 = new Disciplina(123, 'Matemática');
+let d1 = new Disciplina(123, 'Matemática', 8);
 
 // Irá apresentar no console o objeto D1 que recebe os novos valores de atributos da CLASS Disciplina.
 console.log(d1);
 
-// Mesmo a CLASS Produto e CLASS Disciplina terem o mesmo nome de atributo ele irá procurar somente na CLASS que está sendo puxada.
-console.log(d1.codigo)
+// Foi criado uma variável chamada D2 que está recebendo as referencias do objeto D1.
+let d2 = d1;
 
-// Podemos fazer o mesmo processo para atribuir novos valores aos atributos da CLASS Disciplina.
-let d2 = new Disciplina(456, 'Algebra');
+// Podemos perceber que o D2 está exatamente igual ao D1.
 console.log(d2);
 
-// Ao chamar um atributo de outra classe, ou um atributo inexistente na CLASS, irá retornar UNDEFINED.
-console.log(d2.titulo);
+// Quando alteramos o D2 ele também altera o D1, pois eles ocupam o mesmo espaço de memoria, então caso eu alterasse o D1 ele também alteraria o D2.
+d2.codigo = 456;
+d2.nome = 'Algebra';
+d2.nota = 7;
+
+// Irá mostrar no console os novos valores de atribuição do D2 e também do D1 por conta de ocuparem o mesmo espaço de memoria.
+console.log(d1);
+console.log(d2);
