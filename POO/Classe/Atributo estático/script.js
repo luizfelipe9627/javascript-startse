@@ -31,3 +31,13 @@ let p2 = new Produto(121, 'Almofada', 'R$19,99', Produto.pequeno)
 // Irá apresentar no console os objetos da CLASS Produto.
 console.log(p1);
 console.log(p2);
+
+class Veiculo {
+  tamanho;
+  constructor(tamanho) {
+    this.tamanho = tamanho;
+  }
+}
+
+let v = new Veiculo(Produto.grande);
+console.log(v);
