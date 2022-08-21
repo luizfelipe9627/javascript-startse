@@ -21,8 +21,9 @@ class Financiamento {
   }
 }
 
-// Uma variável chamada Financiamento que está armazenando um NEW que é responsável por fazer declaração de objetos.
+// O objeto valores é uma instância da Classe Financiamento.
 // Caso não coloque nenhum parâmetro no NEW ele vai criar o objeto Financiamento mas vai resultar UNDEFINED nos atributos.
 let valores = new Financiamento(10000, 10);
 
+// Irá mostrar no console os novos atributos dos objetos.
 console.log(valores)

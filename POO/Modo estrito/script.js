@@ -26,6 +26,7 @@ function exibeNome(nome) {
   console.log('Sou uma variável chamada A armazenando um number:', a);
   console.log('Sou um elemento sem uma variável, chamada de nome:', nome);
 }
-// Está invocando a função exibeNome.
+
+// Está invocando a função exibeNome recebendo o parâmetro nome.
 exibeNome(nome);
 
