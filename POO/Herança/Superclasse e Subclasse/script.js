@@ -30,7 +30,6 @@ class Livro extends Produto {
   // O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
   constructor(titulo, numPag) {
     // O SUPER é usado para definir os atributos ao objeto da CLASS pai, no caso Produto. 
-    // O SUPER copia o construtor da CLASS pai.
     // Caso deixe vazio irá ficar como UNDEFINED ao reproduzir no console.
     super('Livro');
 
