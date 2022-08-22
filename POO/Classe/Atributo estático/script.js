@@ -38,6 +38,7 @@ class Veiculo {
   // Foi criado uma lista dos atributos que vão ser usados dentro do parâmetro do construtor.
   // Não se cria variáveis quando se trabalha com CLASS ou com atributos.
   tamanho;
+  
   // O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
   constructor(tamanho) {
     // O THIS está sendo usado para diferenciar um atributo de um parâmetro. E assim declarando o atributo da CLASS. O que vem depois do THIS é um atributo.

@@ -7,6 +7,7 @@ class Produto {
   // Não se cria variáveis quando se trabalha com CLASS ou com atributos.
   codigo;
   titulo;
+  
   // O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
   constructor(codigo, titulo) {
     // O THIS está sendo usado para diferenciar um atributo de um parâmetro. E assim declarando o atributo da CLASS. O que vem depois do THIS é um atributo.
@@ -30,6 +31,7 @@ class Disciplina {
   // Não se cria variáveis quando se trabalha com CLASS ou com atributos.
   codigo;
   nome;
+
   // O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
   constructor(codigo, nome) {
     // O THIS está sendo usado para diferenciar um atributo de um parâmetro. E assim declarando o atributo da CLASS. O que vem depois do THIS é um atributo.
