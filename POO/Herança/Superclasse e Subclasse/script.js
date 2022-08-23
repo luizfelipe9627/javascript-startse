@@ -23,14 +23,12 @@ class Produto {
 // Foi declarado uma CLASS chamada Produto que tem a CLASS Livro como sua subclasse/filho.
 class Livro extends Produto {
   // Foi criado uma lista dos atributos que vão ser usados dentro do parâmetro do construtor.
-  // Não se cria variáveis quando se trabalha com CLASS ou com atributos.
   titulo;
   numPag;
 
   // O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
   constructor(titulo, numPag) {
-    // O SUPER é usado para definir os atributos ao objeto da CLASS pai, no caso Produto. 
-    // Caso deixe vazio irá ficar como UNDEFINED ao reproduzir no console.
+    // O SUPER é usado para definir os atributos ao objeto da CLASS pai, no caso Produto. Caso deixe vazio irá ficar como UNDEFINED ao reproduzir no console.
     super('Livro');
 
     // O THIS está sendo usado para diferenciar um atributo de um parâmetro. E assim declarando o atributo da CLASS. O que vem depois do THIS é um atributo.
