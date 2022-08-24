@@ -6,12 +6,12 @@
 export class Fruta {
 	// Criado a lista de atributos privados que vão ser usados.
 	#nome;
-	#grama;
+	#quantidade;
 
 	// O CONSTRUCTOR é um método especial para criar e inicializar um objeto criado a partir de uma classe.
-	constructor(nome, grama) {
+	constructor(nome, quantidade) {
 		// O THIS está sendo usado para diferenciar um atributo de um parâmetro. E assim declarando o atributo da CLASS. O que vem depois do THIS é um atributo.
 		this.#nome = nome;
-		this.#grama = grama;
+		this.#quantidade = quantidade;
 	}
 }
